@@ -1,9 +1,8 @@
 package com.lld.splitwise.commands;
 
+import com.lld.splitwise.controllers.SettleUpController;
 import com.lld.splitwise.controllers.UserController;
-import com.lld.splitwise.dtos.RegisterUserRequestDto;
-import com.lld.splitwise.dtos.RegisterUserResponseDto;
-import com.lld.splitwise.dtos.ResponseStatus;
+import com.lld.splitwise.dtos.*;
 import com.lld.splitwise.exceptions.InvalidCommandException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
